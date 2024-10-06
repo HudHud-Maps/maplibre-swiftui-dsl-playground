@@ -24,6 +24,7 @@ public protocol MLNMapViewCameraUpdating: AnyObject {
         animated: Bool,
         completionHandler: (() -> Void)?
     )
+    @MainActor func setUserTrackingMode(_ mode: MLNUserTrackingMode, animated: Bool, completionHandler: (() -> Void)?)
 }
 
 extension MLNMapView: MLNMapViewCameraUpdating {

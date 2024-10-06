@@ -56,6 +56,7 @@ public struct MapView<T: MapViewHostViewController>: UIViewControllerRepresentab
 
     public func makeUIViewController(context: Context) -> T {
         // Create the map view
+        print("MAKING!!!!")
         let controller = makeViewController()
         controller.mapView.delegate = context.coordinator
         context.coordinator.mapView = controller.mapView
