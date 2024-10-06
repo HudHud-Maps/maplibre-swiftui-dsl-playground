@@ -52,8 +52,6 @@ public class MapViewCoordinator<T: MapViewHostViewController>: NSObject, MLNMapV
     ///   - camera: The new camera from the binding.
     ///   - animated: Whether to animate.
     @MainActor func updateCamera(mapView: MLNMapViewCameraUpdating, camera: MapViewCamera, animated: Bool) {
-        print("update camera DSL: \(camera)")
-        print("update camera native: \(mapView.camera)")
         guard camera != snapshotCamera else {
             // No action - camera has not changed.
             return
