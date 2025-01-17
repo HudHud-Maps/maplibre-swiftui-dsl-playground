@@ -6,7 +6,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/HudHud-Maps/maplibre-gl-native-distribution.git",
       "state" : {
-        "revision" : "b7edc89d400d735347bc318b220604637531967b",
+        "revision" : "57f383fc1f3d7f1fdd654b061580bce1850bd7c8",
         "version" : "6.8.1"
       }
     },
