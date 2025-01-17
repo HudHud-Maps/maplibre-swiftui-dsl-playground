@@ -21,7 +21,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/HudHud-Maps/maplibre-gl-native-distribution.git", from: "6.8.1"),
+		.package(url: "https://github.com/HudHud-Maps/maplibre-gl-native-distribution.git", revision: "57f383fc1f3d7f1fdd654b061580bce1850bd7c8"),
         .package(url: "https://github.com/stadiamaps/maplibre-swift-macros.git", from: "0.0.5"),
         // Testing
         .package(url: "https://github.com/Kolos65/Mockable.git", exact: "0.0.10"),
