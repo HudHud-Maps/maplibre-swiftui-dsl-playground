@@ -1,12 +1,13 @@
 {
-  "originHash" : "6c2fc4a17288b298e2fa4161088c2eaab1dddebe81c8307cce73e869608d173f",
+  "originHash" : "ce3c2934f1d5282f0fc421ab913cea1f1a60872bdddbad8ee7879d643cdcd2e0",
   "pins" : [
     {
       "identity" : "maplibre-gl-native-distribution",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/HudHud-Maps/maplibre-gl-native-distribution.git",
       "state" : {
-        "revision" : "57f383fc1f3d7f1fdd654b061580bce1850bd7c8"
+        "branch" : "main",
+        "revision" : "bbb33559dbca6975afebefd98d4a1f619d8ba4a5"
       }
     },
     {
